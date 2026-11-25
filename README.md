@@ -37,6 +37,10 @@ src/assets/            site.css, site.js, demo-core.js (sample data + scoring ru
 backend/               contact-form Lambda + CloudFront clean-URL function
 ```
 
+## Deploying on Vercel
+
+`vercel.json` tells Vercel to run `node build.mjs` and serve `dist/`. No other settings are needed. Every push to `main` redeploys.
+
 ## Deploying on AWS (S3 + CloudFront)
 
 1. Create a private S3 bucket and upload the contents of `dist/`.

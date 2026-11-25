@@ -1,0 +1,12 @@
+{
+  "name": "thermoledger-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ThermoLedger company website: static multi-page site with an in-browser cold-chain risk demo on sample data",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
